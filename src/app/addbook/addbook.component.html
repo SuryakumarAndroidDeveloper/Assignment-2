@@ -1,0 +1,21 @@
+<div class="flexbox">
+<h1>Add Book</h1>
+<div>
+ <div>
+    <label>Name: </label>
+    <input [(ngModel)]="book.name" />
+ </div>	
+ <div>
+    <label>Price: </label>
+    <input [(ngModel)]="book.price" />
+ </div>	
+ <div>
+    <label>Description: </label>
+    <input [(ngModel)]="book.description" />
+ </div>	 
+ <div>
+    <button (click)="addBook()">Add</button>
+ </div>
+</div> 
+
+</div>

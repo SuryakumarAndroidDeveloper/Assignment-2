@@ -1,0 +1,27 @@
+
+li{
+    display: inline;
+    margin: 3px;
+    padding: 3px;
+    margin-left: 0px;
+    color: rgb(94, 57, 227);
+}
+a:hover{
+    color: rgb(237, 13, 13);
+}
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 4px;
+    height:40px ;
+    margin-left: 20px;
+    width: 300px;
+}
+.title{
+    color: #999;
+    margin-bottom: 10;
+    font-size: 2em;
+}
+.active-link {
+    color: #F20B22;
+}

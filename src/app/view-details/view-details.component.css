@@ -1,0 +1,23 @@
+h1 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+  .view-detail {
+      padding: 0;    	
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: rgb(114, 114, 214);
+    padding: 4px 30px;
+    cursor: pointer; 
+    cursor: hand;
+  }
+  a {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #f31c1c;
+    text-decoration: none;
+  }

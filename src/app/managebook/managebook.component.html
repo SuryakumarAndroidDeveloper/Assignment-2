@@ -1,0 +1,7 @@
+<h1>Manage Book</h1>
+<ul class="manage-book">
+  <li *ngFor="let book of books" >
+    Id: {{book.id}}, Name : {{book.name}}
+	  <button (click)="updateBook(book.id)">Update</button>
+  </li>
+</ul>  
